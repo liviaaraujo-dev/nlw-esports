@@ -11,6 +11,8 @@ import { Loading } from "./src/components/Loading";
 import { Routes } from "./src/routes";
 import { Home } from "./src/screens/Home";
 
+import "./src/services/notificationConfigs";
+
 export default function App() {
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
