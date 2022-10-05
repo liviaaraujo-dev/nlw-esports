@@ -1,8 +1,8 @@
-import { PrismaClient } from "@prisma/client";
-const prisma = new PrismaClient();
+import { Response, Request } from "express";
+import { prisma } from "../server";
 
 class GamesController {
-  async index(request: any, response: any) {
+  async index(request: Request, response: Response) {
     const games = await prisma.game.findMany({
       include: {
         _count: {

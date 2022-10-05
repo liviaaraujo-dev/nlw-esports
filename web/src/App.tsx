@@ -39,7 +39,7 @@ function App() {
         está aqui.
       </h1>
 
-      <div className="grid grid-cols-6 gap-6 mt-16">
+      <div className="grid grid-cols-6 gap-6">
         {games.map((game) => {
           return (
             <GameBanner
