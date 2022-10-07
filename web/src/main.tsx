@@ -5,6 +5,6 @@ import { Game } from "./pages/Game";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <Game />
   </React.StrictMode>
 );
