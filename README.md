@@ -2,6 +2,7 @@
 Projeto no qual a finalidade é encontror o seu DUO para jogar, desenvolvido no evento NLW da Rocketseat, no qual contamos com a versão web e mobile, além da contrução do backend<br><br>
 
 ![GitHub Logo](interface-web.png)
+![GitHub Logo](interface-mobile.png)
 
 ## Tecnologias
 
