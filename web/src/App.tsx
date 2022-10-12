@@ -46,6 +46,7 @@ function App() {
               title={game.title}
               bannerUrl={game.bannerUrl}
               adsCount={game._count.ads}
+              id={game.id}
             />
           );
         })}
