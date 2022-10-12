@@ -1,5 +1,5 @@
 # NLW Esports
-O flix é um projeto que exibir um filme aleatório, por meio dos dados fornecidos pela API do themoviedb.org<br><br>
+Projeto no qual a finalidade é encontror o seu DUO para jogar, desenvolvido no evento NLW da Rocketseat, no qual contamos com a versão web e mobile, além da contrução do backend<br><br>
 
 ![GitHub Logo](interface-web.png)
 
@@ -25,6 +25,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Run Locally
 
+### Web
 ~~~bash
 $ npm run dev
 ~~~
+
+### Backend
+~~~bash
+$ npm run dev
+~~~
+
+### Mobile
+~~~bash
+$ npx expo start
+~~~
+
